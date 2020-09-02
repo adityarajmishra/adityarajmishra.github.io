@@ -1,0 +1,173 @@
+.game
+{
+   
+
+    width: 90%;
+    min-height: 300px;
+    background-color: #194D1E !important;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.btn{
+    border:none;
+    padding: 10px 30px;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background:dodgerblue;
+}
+
+.game h3
+{
+padding: 10px;
+background: #191b1c;
+color:white;
+text-align: center;
+font-family: 'Luckiest Guy', cursive;
+font-size: 32px;
+}
+
+.game .game-body
+{
+padding: 20px;
+}
+
+.game .game-options
+{
+text-align:center;
+}
+.game .card{
+    /* width: 50px;
+    height: 80px;
+    padding: 10px;
+    border: solid 1px #808080;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 10pt;
+    text-align: center;
+    margin: 3px;
+    border:solid 3px; */
+    background: #191b1c;
+    
+    text-align: center;
+    width: 70px;
+    height: 100px;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+    margin: 55px;
+    padding: 0 5px;
+    /* color: red; */
+    
+}
+.game .card .cardColor {
+    color: red !important;
+}
+.game .status
+{
+display: inline-block;
+background: gold;
+padding: 5px 20px;
+display: none;
+text-align: center;
+margin-top: 10px;
+float: right;
+
+
+}
+
+
+.players{
+width: 500px;
+margin: 0 auto;
+margin-top: 20px;
+text-align: center;
+color: white;
+}
+
+.player{
+    width: 40%;
+    /* border: solid 5px #f5f5f5;
+    border-radius: 10px; */
+    padding: 10px;
+    display: inline-block;
+    margin:1%;
+    vertical-align: top;
+    /* color:blue; */
+    font-weight: bold;
+    /* background:#f5f5f5; */
+}
+
+.player.active{
+    /* border: solid 1.5px white;  */
+    border-top: solid 1px white;
+    
+}
+
+.points{
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+    margin: 10px;
+    color : white;
+}
+
+.deck{
+    float:left;
+    background-color: #194D1E !important;
+    color:white;
+    padding: 10px;
+    /* border-radius:10px; */
+    
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.8);
+}
+#deckcount {
+    text-align: center;
+}
+.btn
+{
+    background:#222;
+    color:white !important;
+    border-radius:0px;
+}
+
+
+.icon {
+    float: left;
+    font-size: 16px;
+}
+
+.icon-mid {
+    font-size: 24px;
+    text-align: center;
+       
+}
+
+.icon-bot {
+    float: right;
+    margin-top: -22px;
+}
+
+.ibj img {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+}
